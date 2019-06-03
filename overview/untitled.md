@@ -1,4 +1,4 @@
-# Quick Start
+# Features
 
 ## Getting Super Powers
 
