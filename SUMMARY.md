@@ -10,7 +10,7 @@
 
 ## Setup
 
-* [Quick start](setup/untitled.md)
+* [Quick start](setup/setup-quick-start.md)
 
 ## Developers
 
