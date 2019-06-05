@@ -10,7 +10,7 @@
 
 ## Setup
 
-* [Untitled](setup/untitled.md)
+* [Quick start](setup/untitled.md)
 
 ## Developers
 
