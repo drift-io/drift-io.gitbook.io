@@ -4,8 +4,7 @@
 
 ## Overview
 
-* [Features](overview/untitled.md)
-* [More](overview/untitled-1.md)
+* [Screenshots](overview/untitled.md)
 * [Release Notes](overview/release-notes.md)
 
 ## Setup

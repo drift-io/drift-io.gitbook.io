@@ -1,23 +1,46 @@
-# Features
+# Screenshots
 
-## Getting Super Powers
+## System Description Page
 
-Becoming a super hero is a fairly straight forward process:
+Overview of the high level system components and of the different environments where the system is deployed.
 
-```
-$ give me super-powers
-```
+![](../.gitbook/assets/systemdescription.png)
 
-{% hint style="info" %}
- Super-powers are granted randomly so please submit an issue if you're not happy with yours.
-{% endhint %}
+## System Connections Page
 
-Once you're strong enough, save the world:
+Provides an overview of the connection details for each subsystem grouped by environment. You can validate this connection settings by doing a connectivity test.
 
-```
-// Ain't no code for that yet, sorry
-echo 'You got to trust me on this, I saved the world'
-```
+![](../.gitbook/assets/systemconnections.png)
 
+## Recordings Page
 
+List metadata of recordings. Start a new recording or open an existing recording.
+
+![](../.gitbook/assets/recordings.png)
+
+## Recording Page: initial state, final state
+
+A recording starts with an **initial state**,  a full snapshot of all the system components.
+
+ For jdbc components the full snapshot view consists of a dump of all the data in all the tables as specified in the config file. 
+
+After some interacting with the system additional snapshots can be taken to see how the system state has changed. 
+
+The **final state** is again presented as a full snapshot.
+
+![](../.gitbook/assets/recording01.png)
+
+## Recording page: deltas between snapshots
+
+ The intermediary states are presented as **deltas** between consecutive snapshots. 
+
+For jdbc components a delta view consists of a **summary card** with the **number of inserts/updates/deletes**, and a detailed view of the changed table rows with a **row delta indicator**
+
+| Indicator | Row |
+| :--- | :--- |
+| I | Inserted |
+| U | Updated |
+| D | Deleted |
+
+![](../.gitbook/assets/recording02.png)
 
