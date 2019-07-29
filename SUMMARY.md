@@ -1,11 +1,10 @@
 # Table of contents
 
-* [Contents](README.md)
+* [What is Drift Server](README.md)
 
 ## Use
 
-* [Intro](use/intro.md)
-* [Screenshots](use/untitled.md)
 * [Get Started](use/setup-quick-start.md)
+* [Screenshots](use/untitled.md)
 * [Release Notes](use/release-notes.md)
 
