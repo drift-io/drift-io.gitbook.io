@@ -2,17 +2,10 @@
 
 * [Contents](README.md)
 
-## Overview
+## Use
 
-* [Screenshots](overview/untitled.md)
-* [Release Notes](overview/release-notes.md)
-
-## Setup
-
-* [Quick start](setup/setup-quick-start.md)
-
-## Developers
-
-* [Untitled](developers/untitled.md)
-* [Untitled](developers/untitled-1.md)
+* [Intro](use/intro.md)
+* [Screenshots](use/untitled.md)
+* [Get Started](use/setup-quick-start.md)
+* [Release Notes](use/release-notes.md)
 
