@@ -4,20 +4,20 @@
 
 ### Added
 
-* Software Stack 
+* Software Stack setup
   * Spring boot
   * Wicket + Bootstrap
   * Lucene
   * Plugin system
 * System Description page
-  * list systemcomponents, environ
+  * list system components, environments
 * System Connectivity page
-  * display connection parameters 
-  * test connections button
+  * display connection parameters for each subsystem 
+  * test connection settings per environment
 * Recordings page  
-  * create new recording button, 
-  * list recordings \(initial\)
-  * select recording
+  * list recordings with metadata
+  * create a new recording
+  * select existing recording
 * recording page 
   * take snapshot
   * view snapshot details and deltas

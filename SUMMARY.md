@@ -4,7 +4,10 @@
 
 ## Use
 
-* [Get Started](use/setup-quick-start.md)
-* [Screenshots](use/untitled.md)
+* [Overview](use/untitled.md)
+* [Get Started](use/get-started/README.md)
+  * [Prerequisites](use/get-started/prerequisites.md)
+  * [Installation](use/get-started/installation.md)
+  * [Configuration](use/get-started/configuration.md)
 * [Release Notes](use/release-notes.md)
 
