@@ -8,13 +8,13 @@ Every system component has a key, a type and a description. External database co
 
  If the system is deployed in multiple environments, you can configure a list of different environments, each with a key and description.
 
-![](../.gitbook/assets/systemdescription.png)
+![](../.gitbook/assets/systemdescription-0.0.3.png)
 
 ## System Connections Page
 
 This page gives an overview of the connection settings of each subsystem,  grouped in tabs by environment.  You can validate the connection settings for an environment by clicking the connectivity test button.
 
-![](../.gitbook/assets/systemconnections.png)
+![](../.gitbook/assets/systemconnections-0.0.3.png)
 
 ## Recordings Page
 
@@ -32,7 +32,9 @@ After some interacting with the system additional snapshots can be taken to see 
 
 Only the initial state and the **final state** are presented as a full snapshot. The intermediary snapshots are presented as **deltas**
 
-![](../.gitbook/assets/recording01.png)
+![Database snapshot](../.gitbook/assets/recording01.png)
+
+![File system snapshot](../.gitbook/assets/recording-filesystem-snapshot-0.0.3.png)
 
 ## Recording page: deltas between snapshots
 
@@ -46,5 +48,7 @@ For jdbc components a delta view consists of a **summary card** with total numbe
 | U | Updated |
 | D | Deleted |
 
-![](../.gitbook/assets/recording02.png)
+![delta between DB snapshots](../.gitbook/assets/recording02.png)
+
+![delta between file system snapshots](../.gitbook/assets/recording-filesystem-delta-0.0.3.png)
 

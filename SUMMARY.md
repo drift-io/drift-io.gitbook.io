@@ -9,6 +9,7 @@
   * [Installation](use/get-started/installation.md)
   * [Configuration](use/get-started/configuration/README.md)
     * [JDBC Connections](use/get-started/configuration/jdbc-connections.md)
+    * [Filesystem](use/get-started/configuration/filesystem.md)
 * [Overview](use/untitled.md)
 * [Release Notes](use/release-notes.md)
 
