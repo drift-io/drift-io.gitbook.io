@@ -8,23 +8,25 @@ Say e.g. you want to know what the system is doing when you create a new user.
 
 1. You connect Drift Server to the same databases \(or file systems\) as  your legacy application.  
 
-![The Drift  System Description screen with an overview of the DB connections and file system directories](.gitbook/assets/systemconnections-0.0.3.png)
+![The Drift  System Connections screen with an overview of the DB connections and file system directories](.gitbook/assets/systemconnections-0.0.3.png)
 
+1.  Start a new recording from the recordings page
 
+![Recordings page](.gitbook/assets/recordings.png)
 
 2.  Take an initial snapshot of the databases and filesystem as a baseline
 
-![database snapshot](.gitbook/assets/recording01.png)
+![initial database database snapshot](.gitbook/assets/recording01.png)
 
 ![filesystem snapshot](.gitbook/assets/recording-filesystem-snapshot-0.0.3.png)
 
-3.  Run the action on the legacy system \(e.g. create a user\) and then take antother snapshot, to compare with the first one to see what the application actually did
+3.  Change the state of the legacy system by interacting with it \(e.g. by executing the usecase" creating a new user"\) 
 
-![delta between DB snapshots](.gitbook/assets/recording02.png)
+When done, take another snapshot, to compare with the first one to see what the application actually did
 
-![delta between file system snapshots ](.gitbook/assets/recording-filesystem-delta-0.0.3.png)
+![Database Delta showing the delta between two Database Snapshots](.gitbook/assets/recording02.png)
 
-Drift server has a plugin architecture. For the moment Drift Server has plugins for SQL databases \(using  jdbc drivers\) and for file systems.  
+![Filesystem Delta showing the delta between two  Filesystem snapshots ](.gitbook/assets/recording-filesystem-delta-0.0.3.png)
 
-The tool is limited to a local development environment, with only a single user and with very low amount of data. It should work fine for about 10000 rows of data. Typically a developer will install a system on his local machine or a docker container and then import some reference data and a trimmed down version of a production data dump.
+Drift server is limited to a local development environment, with only a single user and with very low amount of data. It should work fine for about 10000 rows of data. 
 
