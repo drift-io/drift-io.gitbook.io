@@ -1,6 +1,6 @@
 # Installation
 
-See the [**release notes**](../release-notes.md) to see what's in each release and [**download**](https://github.com/drift-io/drift-server/releases) ****the release of your choice.
+See the [**release notes**](../release-notes.md) to see what's in each release and [**download**](https://github.com/driftserver/drift-server/releases) ****the release of your choice.
 
 **unzip** into a folder of your choice. You should see following unzipped folder structure :
 
